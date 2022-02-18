@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)) , url(./udaipur.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+    font-family: 'Bebas Neue', cursive;
+}
+nav{
+display: flex;
+align-items: center;
+height: 100px;
+width: 100vw;
+background-color: rgba(0, 0, 1, 0.2);
+}
+.name{
+  
+    font-size:larger;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    color: rgb(238, 235, 232);
+    width: 2000px;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: rgba(0, 0, 1, 0.2);
+    margin-left: 50px;
+    display: flex;
+    justify-content: left;
+    
+
+    
+}
+.tool{
+    word-spacing: 50px;
+    width: 100%;
+    text-transform: capitalize;
+    
+}
+.tool a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 5px;
+    margin-left: 63px;
+}
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 28vh;
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    color: aliceblue;
+    text-shadow: 2px 1px 5px black;
+    font-size: 100px;
+    margin-top: 10px;
+}
+.visit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+   
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    color: rgb(137, 183, 224);
+    text-shadow: 2px 1px 5px black;
+    font-size: 225px;
+
+}
+.enough{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+ 
+    letter-spacing: 10px;
+    word-spacing: 15px;
+    color: aliceblue;
+    text-shadow: 2px 1px 5px black;
+    font-size: 50px;
+   
+}
+section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100vw;
+    margin-top: 20px;
+}
+
+
+.btn_1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+word-spacing: 10px;
+font-size: medium;
+color:black;
+text-decoration:none;
+letter-spacing: 2px;
+width: 100px;
+height: 30px;
+background-color: rgb(88, 88, 224);
+margin-right: 2px;
+border-radius: 3px;
+}
+.btn_2{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    word-spacing: 3px;
+    font-size: medium;
+    color: black;
+    text-decoration:none ;
+    letter-spacing: 2px;
+    width: 100px;
+    height: 30px;
+    background-color: aliceblue;
+    margin-left: 5px;
+    border-radius: 3px;
+    }
